@@ -32,12 +32,12 @@ npm i --save-dev babel-eslint eslint-config-jongleberry eslint-plugin-react esli
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-jongleberry.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/eslint-config-jongleberry
-[travis-image]: https://img.shields.io/travis/jonathanong/eslint-config-jongleberry.svg?style=flat-square
-[travis-url]: https://travis-ci.org/jonathanong/eslint-config-jongleberry
-[codecov-image]: https://img.shields.io/codecov/c/github/jonathanong/eslint-config-jongleberry/master.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/jonathanong/eslint-config-jongleberry
-[david-image]: http://img.shields.io/david/jonathanong/eslint-config-jongleberry.svg?style=flat-square
-[david-url]: https://david-dm.org/jonathanong/eslint-config-jongleberry
+[travis-image]: https://img.shields.io/travis/jongleberry/eslint-config-jongleberry.svg?style=flat-square
+[travis-url]: https://travis-ci.org/jongleberry/eslint-config-jongleberry
+[codecov-image]: https://img.shields.io/codecov/c/github/jongleberry/eslint-config-jongleberry/master.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/jongleberry/eslint-config-jongleberry
+[david-image]: http://img.shields.io/david/jongleberry/eslint-config-jongleberry.svg?style=flat-square
+[david-url]: https://david-dm.org/jongleberry/eslint-config-jongleberry
 [license-image]: http://img.shields.io/npm/l/eslint-config-jongleberry.svg?style=flat-square
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/eslint-config-jongleberry.svg?style=flat-square
