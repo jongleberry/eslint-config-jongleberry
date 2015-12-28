@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "./lib/index.js"
+  ],
+  "rules": {
+    "quote-props": 0,
+    "quotes": 0,
+  }
+}
