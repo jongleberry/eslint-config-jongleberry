@@ -27,7 +27,7 @@ Usage:
 Run the following:
 
 ```bash
-npm i --save babel-parser eslint-config-jongleberry eslint-plugin-react eslint-plugin-standard
+npm i --save-dev babel-eslint eslint-config-jongleberry eslint-plugin-react eslint-plugin-standard
 ```
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-jongleberry.svg?style=flat-square
