@@ -18,7 +18,7 @@
     "codecov": "1.0.1",
     "eslint": "1.10.3",
     "ghooks": "1.0.3",
-    "mocha": "2.3.4",
+    "mocha": "2.4.1",
     "nyc": "5.5.0"
   },
   "scripts": {
