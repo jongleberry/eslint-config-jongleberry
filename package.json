@@ -7,7 +7,7 @@
   "repository": "jongleberry/eslint-config-jongleberry",
   "dependencies": {
     "babel-eslint": "5.0.0-beta6",
-    "eslint-config-airbnb": "3.1.0",
+    "eslint-config-airbnb": "4.0.0",
     "eslint-config-google": "0.3.0",
     "eslint-config-standard": "4.4.0",
     "eslint-config-standard-react": "1.2.1",
