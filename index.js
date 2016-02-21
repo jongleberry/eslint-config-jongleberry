@@ -48,7 +48,7 @@ module.exports = {
 
     // custom rules
     "arrow-parens": 0, // [2, "as-needed"] doesn't work w/ async functions
-    "no-cond-assign": [2, "except-parens"],
+    "no-cond-assign": 0, // nothing wrong with this
     "no-console": 2,
     "no-var": 2,
     "object-shorthand": [2, "always"],
