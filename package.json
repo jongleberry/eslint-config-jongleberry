@@ -36,7 +36,8 @@
     "config"
   ],
   "files": [
-    "lib"
+    "index.js",
+    "react.js"
   ],
   "main": "index.js"
 }
