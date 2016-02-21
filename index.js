@@ -2,7 +2,6 @@ module.exports = {
   "parser": "babel-eslint",
   "extends": [
     require.resolve("eslint-config-standard"),
-    require.resolve("eslint-config-standard-react"),
   ],
   "rules": {
     // disable eslint rules
