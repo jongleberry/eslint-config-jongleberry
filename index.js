@@ -44,6 +44,7 @@ module.exports = {
     // unset standard rules
     "comma-dangle": 0, // who cares
     "no-loop-func": 2, // if need to do it, write an eslint comment
+    "no-return-assign": 0, // no reason to block this. saves SLOC
 
     // custom rules
     "arrow-parens": 0, // [2, "as-needed"] doesn't work w/ async functions
