@@ -1,6 +1,6 @@
 {
   "extends": [
-    "./index.js"
+    "./react.js"
   ],
   "rules": {
     "quote-props": 0,
