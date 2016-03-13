@@ -3,6 +3,9 @@ module.exports = {
   "extends": [
     require.resolve("eslint-config-standard"),
   ],
+  "plugins": [
+    "babel"
+  ],
   "rules": {
     // disable eslint rules
     "no-underscore-dangle": 0, // why not?
@@ -48,6 +51,8 @@ module.exports = {
 
     // custom rules
     "arrow-parens": 0, // [2, "as-needed"] doesn't work w/ async functions
+    "babel/arrow-parens": [2, "as-needed"],
+
     "no-cond-assign": 0, // nothing wrong with this
     "no-console": 2,
     "no-var": 2,
