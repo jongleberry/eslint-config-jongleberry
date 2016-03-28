@@ -51,7 +51,7 @@ module.exports = {
 
     // custom rules
     "arrow-parens": 0, // [2, "as-needed"] doesn't work w/ async functions
-    "babel/arrow-parens": [2, "as-needed"],
+    // "babel/arrow-parens": [2, "as-needed"], // doesn't work w/ flow
 
     "no-cond-assign": 0, // nothing wrong with this
     "no-console": 2,
