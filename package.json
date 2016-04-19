@@ -7,6 +7,7 @@
   "repository": "jongleberry/eslint-config-jongleberry",
   "dependencies": {
     "babel-eslint": "^6.0.0",
+    "eslint": "^2.5.3",
     "eslint-config-standard": "^5.1.0",
     "eslint-config-standard-jsx": "^1.1.1",
     "eslint-config-standard-react": "^2.2.0",
@@ -17,12 +18,14 @@
   },
   "devDependencies": {
     "codecov": "^1.0.1",
-    "eslint": "^2.5.3",
     "mocha": "^2.4.5",
     "nyc": "^6.0.0"
   },
+  "engines": {
+    "npm": ">= 3"
+  },
   "scripts": {
-    "lint": "eslint --cache index.js react.js test",
+    "lint": "eslint index.js react.js test",
     "test": "mocha",
     "test-cov": "nyc node_modules/mocha/bin/_mocha && nyc report --reporter=lcov"
   },
