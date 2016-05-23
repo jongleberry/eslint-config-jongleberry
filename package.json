@@ -25,7 +25,7 @@
     "npm": ">= 3"
   },
   "scripts": {
-    "lint": "eslint index.js react.js test",
+    "lint": "eslint index.js react.js test/*.js test/fixtures/pass/*.js",
     "test": "mocha",
     "test-cov": "nyc node_modules/mocha/bin/_mocha && nyc report --reporter=lcov"
   },
