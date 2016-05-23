@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "codecov": "^1.0.1",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.0",
     "nyc": "^6.0.0"
   },
   "engines": {
