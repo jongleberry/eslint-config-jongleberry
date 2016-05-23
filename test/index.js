@@ -17,8 +17,10 @@ describe('eslint-config-jongleberry', () => {
   describe('these files should not pass linting:', () => {
     fs.readdirSync(path.join(__dirname, 'fixtures/fail')).forEach(file => {
       it(`fail/${file}`, done => {
-        exec(`./node_modules/.bin/eslint test/fixtures/fail/${file}`, err => {
+        exec(`./node_modules/.bin/eslint test/fixtures/fail/${file}`, (err, stdout, stderr) => {
+          /* eslint no-console: 0 */
           assert(err)
+          console.log(stdout)
           done()
         })
       })
