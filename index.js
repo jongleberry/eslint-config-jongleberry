@@ -49,6 +49,10 @@ module.exports = {
     "no-loop-func": 2, // if need to do it, write an eslint comment
     "no-return-assign": 0, // no reason to block this. saves SLOC
 
+    // fix standard rules
+    "generator-star-spacing": 0,
+    "babel/generator-star-spacing": [2, { "before": true, "after": true }],
+
     // custom rules
     "arrow-parens": 0, // [2, "as-needed"] doesn't work w/ async functions
     // "babel/arrow-parens": [2, "as-needed"], // doesn't work w/ flow
