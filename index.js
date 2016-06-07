@@ -72,8 +72,6 @@ module.exports = {
     "prefer-template": 0, // doesn't make sense all the time
     "radix": 0,
     "require-yield": 0, // doesn't make sense for Koa routes w/o async stuff
-    "vars-on-top": 0,
-
-    "react/no-multi-comp": 2,
+    "vars-on-top": 0
   }
 }
