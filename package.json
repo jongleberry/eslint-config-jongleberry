@@ -8,9 +8,9 @@
   "dependencies": {
     "babel-eslint": "^6.0.0",
     "eslint": "^3.0.1",
-    "eslint-config-standard": "^5.1.0",
-    "eslint-config-standard-jsx": "^2.0.0",
-    "eslint-config-standard-react": "^3.0.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-config-standard-jsx": "^3.0.0",
+    "eslint-config-standard-react": "^4.0.0",
     "eslint-plugin-babel": "^3.1.0",
     "eslint-plugin-promise": "^2.0.0",
     "eslint-plugin-react": "^6.0.0",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "codecov": "^1.0.1",
     "mocha": "^3.0.0",
-    "nyc": "^7.0.0"
+    "nyc": "^8.0.0"
   },
   "engines": {
     "npm": ">= 3"
@@ -37,5 +37,10 @@
     "index.js",
     "react.js"
   ],
-  "main": "index.js"
+  "main": "index.js",
+  "nyc": {
+    "exclude": [
+      "node_modules"
+    ]
+  }
 }
