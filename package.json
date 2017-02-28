@@ -8,7 +8,7 @@
   "dependencies": {
     "babel-eslint": "^7.0.0",
     "eslint": "^3.8.1",
-    "eslint-config-standard": "^6.0.0",
+    "eslint-config-standard": "^7.0.0",
     "eslint-config-standard-jsx": "^3.0.0",
     "eslint-config-standard-react": "^4.0.0",
     "eslint-plugin-babel": "^4.0.0",
