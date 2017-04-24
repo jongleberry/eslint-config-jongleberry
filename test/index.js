@@ -9,7 +9,17 @@ describe('eslint-config-jongleberry', () => {
   describe('these files should pass linting:', () => {
     fs.readdirSync(path.join(__dirname, 'fixtures/pass')).forEach(file => {
       it(`pass/${file}`, done => {
-        exec(`./node_modules/.bin/eslint test/fixtures/pass/${file}`, done)
+        exec(`./node_modules/.bin/eslint test/fixtures/pass/${file}`, (err, stdout, stderr) => {
+          if (err) {
+            console.error(err.stack)
+            console.error(stdout.toString())
+            console.error(stderr.toString())
+            done(err)
+            return
+          }
+
+          done()
+        })
       })
     })
   })
